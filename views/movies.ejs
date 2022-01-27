@@ -14,10 +14,9 @@
     <div class="movie-div">
         <% movies.forEach((movie, i) => { %>
             <div class="movieParade">
-                <h4><%= movie.name %></h4>
-                <h4><%= movie.releaseDate %></h4>
-                <a href="/movies/<%= i %>">
-                </a>
+                <h4>Movie Name: <%= movie.name %></h4>
+                <h4>Release Date: <%= movie.releaseDate %></h4>
+                <a href="/movies/<%= i %>">single Movie</a>
             </div>
         <% }) %>
         </div>  
