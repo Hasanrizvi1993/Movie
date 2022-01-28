@@ -1,19 +1,25 @@
 //External modules
 const express = require('express');
-const mongoose = require('mongoose');
 
-//internal
+//Middleware
+const app = express();
+app.set('view engine', 'ejs')
+// Specifies the location of the static assets folder
+app.use(express.static('static'));
+app.use(express.json());
+// Sets up body-parser for parsing form data
+app.use(express.urlencoded({ extended: false }));
+// sets up public folder for style assets
+app.use("/public", express.static(__dirname + '/public'))
+
+
 
 
 //instanced modules
 //to create the express app
-const app = express();
 // const routes = routes();
 //PORT
 const PORT = 4000;
-
-//configuration-view engine
-app.set("view engine", "ejs");
 
 //Routes
 app.get("/", function(req,res){
