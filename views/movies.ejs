@@ -1,6 +1,6 @@
 <%- include('./partials/header') %>
 <body>
-    <h1 class="movie-header">Movies!!!!</h1>
+    <h1 class="movie-header">Movies</h1>
     <a href="/">Back to Home</a>
     <a href="/movies/new">Add a Movie</a>
     <div class="movie-div">
@@ -8,7 +8,8 @@
             <div class="movieParade">
                 <h4>Movie Name: <%= movie.name %></h4>
                 <h4>Release Date: <%= movie.releaseDate %></h4>
-                <a href="/movies/<%= i %>">single Movie</a>
+                <p>Description: <%=movie.description %></p>
+                <a href="/movies/<%= i %>">More info about <%= movie.name %></a>
             </div>
         <% }) %>
         </div>  
