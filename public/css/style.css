@@ -3,3 +3,19 @@
     font-size: 14px;
     font-weight: bold;
   }
+
+  #text-style {
+    color: white;
+  }
+  
+  #image {
+    width: 100%;
+  }
+
+  #newmovieimage{
+    background-color: white;
+  }
+
+#newmovieimage{
+  color:white;
+}

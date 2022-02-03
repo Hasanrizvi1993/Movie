@@ -1,11 +1,16 @@
 
+<%- include('./partials/header') %>
 <body>
     <a href="/">Back to Home</a>
     <a href="/movies">Back to Movies</a>
     <div class="single-movie-div">
          <h3>Name: <%= movie.name%></h3>
          <div><p></p><strong>Release Date: </strong><%= movie.releaseDate %></p></div>
+         <p>Description: <%= movie.description%></p>
     </div>
 </body>
-</html>
+
+<%- include('./partials/footer') %>
+
+
 
