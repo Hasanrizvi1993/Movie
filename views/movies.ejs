@@ -6,10 +6,12 @@
     <div class="movie-div">
         <% movies.forEach((movie, i) => { %>
             <div class="movieParade">
-                <h4>Movie Name: <%= movie.name %></h4>
-                <h4>Release Date: <%= movie.releaseDate %></h4>
+                <h4><%= movie.name %></h4>
+                <h5>Release Date: <%= movie.releaseDate %></h5>
                 <p>Description: <%=movie.description %></p>
                 <a href="/movies/<%= i %>">More info about <%= movie.name %></a>
+                <img id="image" src="<%= movie.image %>"></img>
+                
             </div>
         <% }) %>
         </div>  

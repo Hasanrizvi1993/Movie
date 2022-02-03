@@ -8,3 +8,14 @@
     color: white;
   }
   
+  #image {
+    width: 100%;
+  }
+
+  #newmovieimage{
+    background-color: white;
+  }
+
+#newmovieimage{
+  color:white;
+}
