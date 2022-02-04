@@ -1,0 +1,24 @@
+.nav-wrapper {
+    background-color: #850000 !important;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  #text-style {
+    color: white;
+  }
+  #name {
+    
+  }
+  
+  #image {
+    width: 100%;
+  }
+
+  #newmovieimage{
+    background-color: white;
+  }
+
+#newmovieimage{
+  color:white;
+}

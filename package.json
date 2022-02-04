@@ -22,6 +22,18 @@
     "ejs": "^3.1.6",
     "express": "^4.17.2",
     "mongoose": "^6.1.8",
-    "nodemon": "^2.0.15"
-  }
+
+    "node": "^17.4.0",
+    "nodemon": "^2.0.15",
+    "static": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hasanrizvi1993/Movie.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Hasanrizvi1993/Movie/issues"
+  },
+  "homepage": "https://github.com/Hasanrizvi1993/Movie#readme"
+
 }

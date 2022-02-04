@@ -1,0 +1,17 @@
+
+<%- include('./partials/header') %>
+<body>
+    <a class="waves-effect waves-light btn" href="/">Home</a>
+    <a class="waves-effect waves-light btn" href="/movies">Movies</a>
+    <div class="single-movie-div">
+         <h3><%= movie.name%></h3>
+         <div><p></p><strong>Release Date: </strong><%= movie.releaseDate %></p></div>
+         <p>Description: <%= movie.description%></p>
+         <p>Cast: <%= movie.cast%></p>
+    </div>
+</body>
+
+<%- include('./partials/footer') %>
+
+
+

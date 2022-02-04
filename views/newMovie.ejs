@@ -1,0 +1,12 @@
+<%- include('./partials/header') %>
+<body id="newmovieimage">
+    <h1>New Movie</h1>
+    <form action="/movies" method="POST" autocomplete="off">
+        <input style='color:white;' type="text" name="name" placeholder="Name"/>
+        <input style='color:white;' type="date" name="releaseDate" placeholder="Release date"/>
+        <input style='color:white;' type="text" name="description" placeholder="description"/>
+        <input style='color:white;' type="text" name="image" placeholder="Image URL" />
+        <button type="submit">Save Movie</button>
+    </form>
+</body>
+<%- include('./partials/footer') %>
