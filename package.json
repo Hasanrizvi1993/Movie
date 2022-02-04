@@ -1,5 +1,5 @@
 {
-  "name": "group-project-personal",
+  "name": "movie",
   "version": "1.0.0",
   "description": "Movie project",
   "main": "server.js",
@@ -7,13 +7,22 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hasanrizvi1993/Movie.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hasanrizvi1993/Movie/issues"
+  },
+  "homepage": "https://github.com/Hasanrizvi1993/Movie#readme",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.2",
     "mongoose": "^6.1.8",
+
     "node": "^17.4.0",
     "nodemon": "^2.0.15",
     "static": "^2.0.0"
@@ -26,4 +35,5 @@
     "url": "https://github.com/Hasanrizvi1993/Movie/issues"
   },
   "homepage": "https://github.com/Hasanrizvi1993/Movie#readme"
+
 }
