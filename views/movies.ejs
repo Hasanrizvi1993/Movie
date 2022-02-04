@@ -1,16 +1,13 @@
 <%- include('./partials/header') %>
 <body>
     <h1 class="movie-header">Movies</h1>
-    <a href="/">Back to Home</a>
-    <a href="/movies/new">Add a Movie</a>
+    <a class="waves-effect waves-light btn" href="/">Home</a>
+    <a class="waves-effect waves-light btn" href="/movies/new">Add Movie</a>
     <div class="movie-div">
         <% movies.forEach((movie, i) => { %>
             <div class="movieParade">
-                <h4><%= movie.name %></h4>
-                <h5>Release Date: <%= movie.releaseDate %></h5>
-                <p>Description: <%=movie.description %></p>
-                <a href="/movies/<%= i %>">More info about <%= movie.name %></a>
-                <img id="image" src="<%= movie.image %>"></img>
+                <h4 id="name"><%= movie.name %></h4>
+                <a href="/movies/<%= i %>"><img id="image" src="<%= movie.image %>"></img></a>
                 
             </div>
         <% }) %>
