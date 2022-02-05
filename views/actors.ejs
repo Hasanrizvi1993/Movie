@@ -1,0 +1,16 @@
+<%- include('./partials/header') %>
+<body>
+    <h1 class="actor-header">Actors</h1>
+    <a class="waves-effect waves-light btn" href="/">Home</a>
+    <div class="actor-div">
+        <% actors.forEach((actor, i) => { %>
+            <div class="actorParade">
+                <h4 id="name"><%= actor.name %></h4>
+                <h5>DOB: <%= actor.birthDay %></h5>
+                <h5>Age: <%= actor.age %></h5>
+                <img src="<%= actor.image %>"></img>
+            </div>
+        <% }) %>
+        </div>  
+</body>
+<%- include('./partials/footer') %>

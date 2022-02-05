@@ -28,6 +28,8 @@ app.get("/", function(req,res){
 
 app.use("/movies", require("./routes/movies"));
 
+app.use("/actors", require("./routes/actors"));
+
 
 //404 routes
 app.get((req,res)=>{
