@@ -29,7 +29,7 @@ const movies = [
         image: 'public/spiderman.jpg',
         cast: ['Tom Holland', ' Zendaya', ' Benedict Cumberbatch', 'Jacob Batalon'],
 
-    }
+    },
     
 ]
 
