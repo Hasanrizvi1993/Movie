@@ -30,6 +30,14 @@ const movies = [
         cast: ['Tom Holland', ' Zendaya', ' Benedict Cumberbatch', 'Jacob Batalon'],
 
     },
+    {
+        name: 'San Andreas',
+        releaseDate: '05/29/2015',
+        description: 'In the aftermath of a massive earthquake in California, a rescue-chopper pilot makes a dangerous journey with his ex-wife across the state in order to rescue his daughter. (Source: imdb)',
+        image: 'https://m.media-amazon.com/images/M/MV5BNzZhYmQ2NGMtZmRmYi00NzgzLTllNmUtNDQwZDAxMmE3NzI0XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_.jpg',
+        cast: ['Dwayne Johnson', 'Carla Gugino', 'Alexandra Daddario']
+    }
+
     
 ]
 
