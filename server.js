@@ -19,7 +19,7 @@ app.use("/public", express.static(__dirname + '/public'))
 //to create the express app
 // const routes = routes();
 //PORT
-const PORT = 4000;
+// const PORT = 4000;
 
 //Routes
 app.get("/", function(req,res){
@@ -39,6 +39,6 @@ app.get((req,res)=>{
 
 //server listener
 
-app.listen(PORT);
+app.listen(process.env.PORT || 5000);
 
 
